@@ -2,7 +2,7 @@ import './css/styles.css';
 import axios from 'axios';
 import Notiflix from 'notiflix';
 
-const { default: axios } = require('axios');
+// const { default: axios } = require('axios');
 const form = document.querySelector('#search-form');
 const input = document.querySelector('input');
 const gallery = document.querySelector('.gallery');
