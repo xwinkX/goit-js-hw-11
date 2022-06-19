@@ -1,54 +1,58 @@
 .body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 .search-form {
-    text-align: center;
-    background-color: blue;
-    position: sticky;
-    top: 0;
-    height: 50px;
+  text-align: center;
+  background-color: blue;
+  position: sticky;
+  top: 0;
+  height: 50px;
 }
 
 input {
-    margin-top: 12.5px;
+  margin-top: 12.5px;
 }
+
 .load-more {
-    display: block;
-    margin: 0 auto;
-    background-color: blue;
-    color: aliceblue;
+  display: block;
+  margin: 0 auto;
+  background-color: blue;
+  color: aliceblue;
 }
 
 .gallery {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-        flex-wrap: wrap;
-    }
-   
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 
 .info {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(211, 196, 196);
-    border-left: 1px solid rgb(211, 196, 196);
-    border-right: 1px solid rgb(211, 196, 196);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(211, 196, 196);
+  border-left: 1px solid rgb(211, 196, 196);
+  border-right: 1px solid rgb(211, 196, 196);
 }
+
 .info-item {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    text-align: center;
-    
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  text-align: center;
+
 }
 
 img {
   width: 350px;
   height: 230px;
 }
+
 .photo-card {
-    margin: 10px;
-    
-    
+  margin: 10px;
+
+
 }

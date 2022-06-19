@@ -29,7 +29,7 @@ async function getData(dataUser) {
   try {
     const response = await axios.get(url);
     const dataImages = response.data.hits;
-     if (dataImages.length === 0) {
+    if (dataImages.length === 0) {
       loadMoreBtn.style.display = 'none';
       Notiflix.Notify.info(
         'Sorry, there are no images matching your search query. Please try again.'
@@ -41,7 +41,7 @@ async function getData(dataUser) {
           'Were sorry, but youve reached the end of search results.'
         );
       }
-       renderList(dataImages);
+      renderList(dataImages);
     }
   } catch (error) {
     console.log('gopa');
