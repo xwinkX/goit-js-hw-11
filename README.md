@@ -53,7 +53,7 @@ Pages, в ветку `gh-pages`, каждый раз когда обновляе
 ```json
 "homepage": "https://your_username.github.io/your_repo_name/",
 "scripts": {
-  "build": "parcel build src/*.html --public-url /your_repo_name/"
+  "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
 },
 ```
 
@@ -98,4 +98,4 @@ Pages, в ветку `gh-pages`, каждый раз когда обновляе
    проходит сборку перед деплоем.
 3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
    отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
-   скрипта будет указано в чем проблема.
+   скрипта будет указано в чем проблема. dataImages.length === 0
